@@ -12,7 +12,7 @@ const StoreContextProvider = (props) => {
 
     const [food_list, setFoodList] = useState([])
 
-    const url = "http://localhost:4000"
+    const url = "https://food-panda-backend.vercel.app/"
 
     const addToCart = async (itemId) => {
         // Add item to cart
